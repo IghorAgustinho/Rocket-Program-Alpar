@@ -10,11 +10,16 @@ class Pessoa {
   let cadastro = [];
 
     function adicionarPessoa(objetoP) {
+    const jaExiste = cadastro.some(p => p.email === objetoP.email);
+
+if (jaExiste) {
+        console.log("Erro: Já existe um usuário cadastrado com este e-mail.");
+    } 
+    else {
     cadastro.push(objetoP);
     console.log("Cadastro Concluido!");
-    
+    }
 }
-
 function removerPessoa(emailP) {
 
     let i = cadastro.findIndex(p => p.email === emailP);
