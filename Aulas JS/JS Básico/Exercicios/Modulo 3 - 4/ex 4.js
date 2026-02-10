@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-let lista = [];
+let listaDeCompras = [];
 let item;
 
 function compras(x){
