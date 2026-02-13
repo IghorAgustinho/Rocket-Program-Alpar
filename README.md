@@ -17,4 +17,4 @@ O repositório está organizado por módulos para facilitar a navegação:
 * [Meu LinkedIn](https://www.linkedin.com/in/IghorAgustinho)
 
 ---
-*Estudando diariamente para transformar código em soluções.*
+*Estudando diariamente para transformar meu futuro.*
