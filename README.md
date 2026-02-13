@@ -1,13 +1,6 @@
 # 🚀 Rocket Program - Alpar
 
-Este repositório foi criado para centralizar todos os meus estudos, exercícios e projetos desenvolvidos durante o **Rocket Program** na Alpar. Sou **Trainee Developer** com foco em Desenvolvimento Web e aqui registro minha evolução técnica.
-
-## 👤 Sobre Mim
-* **Nome:** Ighor Alexandre
-* **Idade:** 18 anos
-* **Formação:** Técnico em Informática pelo IFPR
-* **Cargo Atual:** Trainee Developer na Alpar
-* **Idiomas:** Inglês avançado e Espanhol básico
+Este repositório foi criado para centralizar todos os meus estudos, exercícios e projetos desenvolvidos durante o **Rocket Program** na Alpar.
 
 ## 🛠️ Tecnologias em Estudo
 * **Frontend:** HTML5, CSS3 e JavaScript (Classes, Objetos, Arrays)
