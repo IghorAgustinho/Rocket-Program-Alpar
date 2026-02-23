@@ -13,7 +13,7 @@ O repositório está organizado por módulos para facilitar a navegação:
 * `Aulas JS/`: Lógica de programação e manipulação de dados com JavaScript.
 
 ## 🔗 Links Úteis
-* [Acesse meu Portfólio (GitHub Pages)](https://ighoragustinho.github.io/Rocket-Program-Alpar/Aulas%20HTML-CSS/exercicios/1/index.html)
+* [Acesse meu Portfólio (GitHub Pages)](https://ighoragustinho.github.io/Rocket-Program-Alpar/Aulas%20HTML-CSS/exercicios/Portfolio/index.html)
 * [Meu LinkedIn](https://www.linkedin.com/in/IghorAgustinho)
 
 ---
