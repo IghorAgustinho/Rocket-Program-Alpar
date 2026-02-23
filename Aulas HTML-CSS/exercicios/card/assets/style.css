@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+header img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+header {
+
+    width: 15%;
+    padding: 0px 0px 50px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+
+}
+
+header h1 {
+
+
+    padding: 20px 0px 50px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+header h3 {
+
+    padding: 1px 0px 50px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+
+    background-image: url("../assets/Nurburgring.jpg");
+    width: 50%;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+article {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto 16px auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+article a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+article:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
