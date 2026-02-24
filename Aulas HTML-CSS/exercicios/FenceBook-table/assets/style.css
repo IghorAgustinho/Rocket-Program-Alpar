@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+
+header {
+    font-size: 15px;
+    font-weight: bolder;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding:10px 0px 10px 0px;
+    border: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 10px;
+
+    
+}
+
+
+header nav {
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header nav a{
+    color: white;
+}
+
+aside {
+    border-radius: 10px;
+    border: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+    top: 95px;
+    bottom: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: fixed;
+    width: 10%;
+    align-items: left;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+
+aside h3 {
+    margin-left: 5px;
+}
+
+article {
+    padding: 150px 15px 15px 300px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+    background-color: rgb(231, 232, 233);
+    
+}
+
+content {
+
+    padding-bottom: 50px;
+}
+
+
+img {
+    
+    height: 400px;
+    width: 400px;
+}
