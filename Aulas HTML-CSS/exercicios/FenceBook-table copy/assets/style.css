@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    color: w;
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+aside {
+    color: white;
+    grid-area: sidebar;
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+article {
+    grid-area: main;
+    padding: 20px;
+    background-color: rgb(231, 232, 233);
+    overflow-y: auto;
+
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
