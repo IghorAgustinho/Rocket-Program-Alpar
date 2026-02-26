@@ -11,6 +11,9 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../Baralho/assets/style.css">
     <title>Ace</title>
+
+
+
 </head>
 
 <body>
@@ -25,13 +28,36 @@
 
 
             </div>
-            <div class="carta-verso"> <img src="../Baralho/assets/verso.png">
+            <div class="carta-verso"> <img id="foto-verso" src="../Baralho/assets/verso_1.png">
             </div>
         </div>
     </div>
 
     </div>
+    <script>
+        const carta = document.querySelector('.carta');
+        const imgElement = document.getElementById('foto-verso');
 
+        const listaImagens = [
+            'assets/verso_1.png',
+            'assets/verso_2.png',
+            'assets/verso_3.png',
+            'assets/verso_4.png',
+            'assets/verso_5.png',
+            'assets/verso_6.png'
+        ];
+
+        let indiceAtual = 0;
+
+        carta.addEventListener('mouseleave', () => {
+
+            setTimeout(() => {
+                indiceAtual = (indiceAtual + 1) % listaImagens.length;
+                imgElement.src = listaImagens[indiceAtual];
+            }, 600);
+        });
+
+    </script>
 </body>
 
 </html>
