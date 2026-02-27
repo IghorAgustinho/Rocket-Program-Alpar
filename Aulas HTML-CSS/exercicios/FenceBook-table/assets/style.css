@@ -6,9 +6,9 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-
-
 }
+
+
 
 header {
     font-size: 15px;
@@ -40,6 +40,18 @@ header nav {
     color: white;
     display: flex;
     flex-direction: row;
+
+}
+
+header nav:hover {
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.5;
 
 }
 

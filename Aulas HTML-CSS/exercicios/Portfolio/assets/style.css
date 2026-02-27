@@ -1,0 +1,293 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255, 1);
+}
+
+aside {
+    border: 2px;
+    border-color: rgb(71, 71, 71);
+    border-style: solid;
+    position: fixed;
+    width: 25%;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px 15px 15px 15px;
+    box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#pfp {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 175px;
+    height: 175px;
+
+}
+
+.pfp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.resumo {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.navegar {
+
+    padding-top: 80px;
+
+}
+
+body article {
+    width: 300px;
+    max-width: 500px;
+    margin: 0 auto 16px auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+article a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+article:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.icones {
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.icones img {
+    display: block;
+    float: left;
+}
+
+#logoGitHub {
+    width: 40px;
+    height: 40px
+}
+
+#logoLinkedIn {
+    width: 39px;
+    height: 39px
+}
+
+.conteudo {
+
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 10% 0px 35%;
+    background-color: rgba(20, 20, 20, 1);
+    flex-direction: column;
+    height: 100%;
+    padding: 100px 15px 15px 0px;
+    border: 2px;
+    border-color: rgb(71, 71, 71);
+    border-style: solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.tag {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.grid-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.stat-item {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(71, 71, 71, 0.5);
+}
+
+.stat-numero {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stat-desc {
+    color: #888;
+    font-size: 14px;
+}
+
+.tags-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tags-tech span {
+    background: #111;
+    border: 1px solid #474747;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.tags-tech span:hover {
+    border-color: #fff;
+    background: #222;
+}
+
+.carro {
+    padding-top: 30px;
+}
+
+
+.carro img {
+
+    border-radius: 5%;
+
+}
+
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Reaproveitando o estilo de card para os projetos */
+.card-projeto {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(71, 71, 71, 0.5);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card-projeto:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.card-projeto a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+}
+
+.card-projeto h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.card-projeto p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.acessar {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* --- AJUSTES DE TEXTO PARA SOBRE E CONTATO --- */
+.texto-focado {
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.texto-focado p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.lista-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
