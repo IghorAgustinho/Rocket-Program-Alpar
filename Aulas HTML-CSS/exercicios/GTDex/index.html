@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTDex</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CarroDex</h1>
+        <input type="text" id="inputBusca" placeholder="Buscar por modelo ou marca...">
+    </header>
+
+    <main>
+        <div id="containerDex" class="grid-container">
+        </div>
+    </main>
+
+    <div id="modalCarro" class="modal oculto">
+        <div class="conteudo-modal">
+            <span id="botaoFechar" class="btn-fechar">&times;</span>
+            <img id="imgModal" src="" alt="Imagem do Carro">
+
+            <h2 id="nomeModal"></h2>
+
+            <h3 id="tituloDescricaoModal" class="titulo-destaque"></h3>
+            <p id="descricaoModal" class="texto-descricao"></p>
+
+            <div class="cabecalho-specs">
+                <span id="categoriaModal" class="badge-categoria"></span>
+                <span class="texto-pp">PP <span id="ppModal"></span></span>
+            </div>
+
+            <div class="tabela-specs">
+                <div class="linha-spec"><span>Cilindrada</span> <strong id="cilindradaModal"></strong></div>
+                <div class="linha-spec"><span>Tração</span> <strong id="tracaoModal"></strong></div>
+                <div class="linha-spec"><span>Potência Máxima</span> <strong id="potenciaModal"></strong></div>
+                <div class="linha-spec"><span>Torque Máximo</span> <strong id="torqueModal"></strong></div>
+                <div class="linha-spec"><span>Peso</span> <strong id="pesoModal"></strong></div>
+                <div class="linha-spec"><span>Aspiração</span> <strong id="aspiracaoModal"></strong></div>
+                <div class="linha-spec"><span>Comprimento</span> <strong id="comprimentoModal"></strong></div>
+                <div class="linha-spec"><span>Largura</span> <strong id="larguraModal"></strong></div>
+                <div class="linha-spec"><span>Altura</span> <strong id="alturaModal"></strong></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
