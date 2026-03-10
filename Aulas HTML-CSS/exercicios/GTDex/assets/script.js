@@ -191,5 +191,51 @@ window.addEventListener('click', (evento) => {
     }
 });
 
+const modalForm = document.getElementById('modalForm');
+const btnAbrirForm = document.getElementById('btnAbrirForm');
+const fecharForm = document.getElementById('fecharForm');
+const formNovoCarro = document.getElementById('formNovoCarro');
+
+
+btnAbrirForm.addEventListener('click', () => modalForm.classList.remove('oculto'));
+fecharForm.addEventListener('click', () => modalForm.classList.add('oculto'));
+
+
+formNovoCarro.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+
+
+    const novoCarro = {
+        id: dadosCarros.length + 1,
+        nome: document.getElementById('inputNome').value,
+        marca: document.getElementById('inputMarca').value,
+        imagem: document.getElementById('inputImagem').value,
+        tituloDescricao: "Adicionado Manualmente", // Título padrão para carros novos
+        descricao: document.getElementById('inputDescricao').value,
+        categoria: document.getElementById('inputCategoria').value,
+        pp: document.getElementById('inputPP').value,
+        cilindrada: document.getElementById('inputCilindrada').value,
+        tracao: document.getElementById('inputTracao').value,
+        potencia: document.getElementById('inputPotencia').value,
+        torque: document.getElementById('inputTorque').value,
+        peso: document.getElementById('inputPeso').value,
+        aspiracao: document.getElementById('inputAspiracao').value,
+        comprimento: document.getElementById('inputComprimento').value,
+        largura: document.getElementById('inputLargura').value,
+        altura: document.getElementById('inputAltura').value
+    };
+
+
+    dadosCarros.push(novoCarro);
+
+
+    renderizarCarros(dadosCarros);
+
+
+    formNovoCarro.reset();
+    modalForm.classList.add('oculto');
+
+    alert("Carro adicionado com sucesso na sessão atual!");
+});
 
 renderizarCarros(dadosCarros);

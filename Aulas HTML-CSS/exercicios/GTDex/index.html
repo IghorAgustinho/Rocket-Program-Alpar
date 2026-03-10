@@ -12,6 +12,41 @@
     <header>
         <h1>CarroDex</h1>
         <input type="text" id="inputBusca" placeholder="Buscar por modelo ou marca...">
+        <button id="btnAbrirForm" class="btn-adicionar">+ Adicionar Carro</button>
+
+        <div id="modalForm" class="modal oculto">
+            <div class="conteudo-modal form-modal">
+                <span id="fecharForm" class="btn-fechar">&times;</span>
+                <h2>Adicionar Novo Carro</h2>
+
+
+                <form id="formNovoCarro">
+                    <input type="text" id="inputNome" placeholder="Nome do Carro (ex: Civic Si '08)" required>
+                    <input type="text" id="inputMarca" placeholder="Marca (ex: Honda)" required>
+                    <input type="url" id="inputImagem" placeholder="URL da Imagem da internet" required>
+                    <textarea id="inputDescricao" placeholder="Breve história ou descrição do carro..."
+                        required></textarea>
+
+                    <div class="specs-grid-form">
+                        <input type="text" id="inputCategoria" placeholder="Categoria (ex: Gr.N)" required>
+                        <input type="text" id="inputPP" placeholder="PP (ex: 500.50)" required>
+                        <input type="text" id="inputCilindrada" placeholder="Cilindrada (ex: 1998 cc)" required>
+                        <input type="text" id="inputTracao" placeholder="Tração (ex: FF)" required>
+                        <input type="text" id="inputPotencia" placeholder="Potência (ex: 197 HP)" required>
+                        <input type="text" id="inputTorque" placeholder="Torque (ex: 139 ft-lb)" required>
+                        <input type="text" id="inputPeso" placeholder="Peso (ex: 2888 lbs)" required>
+                        <input type="text" id="inputAspiracao" placeholder="Aspiração (ex: NA)" required>
+                        <input type="text" id="inputComprimento" placeholder="Comprimento (in.)" required>
+                        <input type="text" id="inputLargura" placeholder="Largura (in.)" required>
+                        <input type="text" id="inputAltura" placeholder="Altura (in.)" required>
+                    </div>
+
+                    <button type="submit" class="btn-salvar">Salvar na Dex</button>
+                </form>
+
+
+            </div>
+        </div>
     </header>
 
     <main>
