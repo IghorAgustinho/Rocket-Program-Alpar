@@ -210,7 +210,8 @@ formNovoCarro.addEventListener('submit', (evento) => {
         nome: document.getElementById('inputNome').value,
         marca: document.getElementById('inputMarca').value,
         imagem: document.getElementById('inputImagem').value,
-        tituloDescricao: "Adicionado Manualmente", // Título padrão para carros novos
+        imagem2: document.getElementById('inputImagem2').value,
+        tituloDescricao: "Adicionado Manualmente",
         descricao: document.getElementById('inputDescricao').value,
         categoria: document.getElementById('inputCategoria').value,
         pp: document.getElementById('inputPP').value,
