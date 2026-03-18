@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #229ee6;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #006dd3;
+    border-bottom: 2px solid #fdebd0;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+dl {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+dt {
+    font-weight: bold;
+    color: #2b46c0;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+dd {
+    margin: 5px 0 15px 20px;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: -15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: #fafafa;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #e67e22;
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    background-color: #2287e6;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007fd3;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 40px 0;
+}
+
+a {
+    display: inline-block;
+    color: #228ee6;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0062d3;
+}
